@@ -1,7 +1,13 @@
-import React from 'react'
+import { Html, Head, Main, NextScript } from "next/document";
 
-export default function  _document() {
+export default function Document() {
   return (
-    <div>_document</div>
-  )
+    <Html lang="en">
+      <Head />
+      <body>
+        <Main />
+        <NextScript />
+      </body>
+    </Html>
+  );
 }
