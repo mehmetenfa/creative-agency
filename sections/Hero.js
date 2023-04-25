@@ -44,6 +44,7 @@ const Hero = () => {
           </div>
         </div>
       </section>
+      
       <Expertise />
       <Banner />
       <Testimonial />
