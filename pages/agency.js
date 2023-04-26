@@ -1,9 +1,15 @@
-import React from 'react'
+import { Agency } from "@/sections";
+import Head from "next/head";
 
-const agency = () => {
+const AgencyPage = () => {
   return (
-    <div>agency</div>
+    <>
+      <Head>
+        <title>About Agency</title>
+      </Head>
+      <Agency />
+    </>
   )
 }
 
-export default agency
+export default AgencyPage
