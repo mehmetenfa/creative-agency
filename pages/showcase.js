@@ -1,6 +1,6 @@
-import React from "react";
-import { ShowCase } from "@/sections";
-import Head from "next/head";
+import { ShowCase } from "@/sections"
+import Head from "next/head"
+import React from "react"
 
 const showcase = () => {
   return (
@@ -10,7 +10,7 @@ const showcase = () => {
       </Head>
       <ShowCase />
     </>
-  );
-};
+  )
+}
 
-export default showcase;
+export default showcase
