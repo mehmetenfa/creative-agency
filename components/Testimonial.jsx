@@ -61,7 +61,7 @@ const Testimonial = () => {
           <div className="cards">
             <Slider {...settings}>
               {testimonial.map((user) => (
-                <div>
+                <div key={user.id}>
                   <div className="card">
                     <div className="image">
                       <div className="img">
